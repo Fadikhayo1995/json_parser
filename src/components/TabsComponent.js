@@ -7,8 +7,6 @@ const TabsComponent = props => {
   const [value, setValue] = React.useState(0)
   const { component: { children, id } } = props;
 
-
-
   const _getChild = () => {
     if (value > children.length - 1 || !children[value] || !children[value].components) return <></>;
     return <>

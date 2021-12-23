@@ -1,6 +1,6 @@
 import React from 'react';
-import Settings from "./resources/settings";
-import MainComponent from './components/MainComponent';
+import Settings from "../resources/settings";
+import MainComponent from '../components/MainComponent';
 
 const App = props => {
   return (
